@@ -1,3 +1,32 @@
-h1{
+body{
+  text-align: center;
+  background-color: lightblue;
+}
+
+header{
+  margin: 10px auto;
   color: red;
+  width: 40%;
+  height: 50%;
+}
+
+h1{
+  font-size: 36px;
+}
+
+#wikiPic{
+  width: 60%;
+}
+
+#searchInput{
+  width: 40%;
+  background-color: #AFA;
+}
+
+#goInput{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #0F0;
+  color: #060;
 }
