@@ -52,24 +52,24 @@ h1{
   padding-bottom: 40px;
 }
 
-p{
-  margin: -3px;
-  padding: 0px;
-}
-
 #titles{
+  margin: 3px;
   font-size: 2em;
   font: Arial;
+  padding: 3px;
 }
+
 #descriptions{
+  padding: 3px;
   font-size: 1.2em;
   font-style: italic;
   background-color: #EEE;
   width: 90%;
-  margin: 0 auto;
+  margin: 3px auto;
   border: 1px blue solid;
   border-radius: 0%;
 }
+
 a{
   /*margin-bottom: 40px;*/
 }

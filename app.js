@@ -20,24 +20,17 @@ function getIt(){
       console.log(res);
       article.empty();
       for(var i = 0; i < resultsLimit; i++){
-        article.append( '<div class="articles">' + (i+1) +
-                       '<p id="titles">' + res[1][i] + '</p><br>' +
-                       '<p id="descriptions">' + res[2][i] + '</p><br>' +
-                       '<a href="' + res[3][i] + '">' + res[3][i] + '</a>'
-                       + '</div><hr>'
+        article.append( '<div class="articles">' + (i+1) + ": " +
+                       '<h4 id="titles"><a href="' + res[3][i] + '">' + res[1][i] + '</a></h4><br>' +
+                       '<p id="descriptions"><a href="' + res[3][i] + '">' + res[2][i] + '</a></p>' +
+                       '</div><hr>'
                      );//append
       };//for
     }//success
   })//ajax
-
-              // this also works
               //  $.get(url)
-              //    .done(function(data) {
-              //        console.log(data);
-              //    })
-              //    .fail(function(data) {
-              //        console.log('Error: ' + data);
-              //    });
+              //    .done(function(data) {} )
+              //    .fail(function(data) {} );
 }//getIt
 
 // gets one random article using the users word
@@ -52,12 +45,18 @@ function getRandom(){
       console.log("Below is Random: ");
       console.log(res);
       article.empty();
-      article.append( '<div class="articles">' +
-                     '<p id="titles">' + res[1][rand] + '</p><br>' +
-                     '<p id="descriptions">' + res[2][rand] + '</p><br>' +
-                     '<a href="' + res[3][rand] + '">' + res[3][rand] + '</a>'
-                     + '</div><hr>'
+      article.append('<div class="articles">' +
+                     '<h4 id="titles"><a href="' + res[3][rand] + '">' + res[1][rand] + '</a></h4><br>' +
+                     '<p id="descriptions"><a href="' + res[3][rand] + '">' + res[2][rand] + '</a></p>' +
+                     '</div><hr>'
                    );//append
+
+
+
+
+
+
+
     }//success
   })//ajax
 }//getRandom
