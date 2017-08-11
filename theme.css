@@ -54,7 +54,7 @@ h1{
 
 p{
   margin: -3px;
-  padding: -3px;
+  padding: 0px;
 }
 
 #titles{
@@ -68,7 +68,7 @@ p{
   width: 90%;
   margin: 0 auto;
   border: 1px blue solid;
-  border-radius: -25%;
+  border-radius: 0%;
 }
 a{
   /*margin-bottom: 40px;*/
