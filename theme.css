@@ -15,7 +15,7 @@ h1{
 }
 
 #wikiPic{
-  width: 10%;
+  width: 30%;
 }
 
 #searchInput{
@@ -23,12 +23,24 @@ h1{
   background-color: #AFA;
 }
 
+/*go button*/
 #goInput{
-  width: 70px;
-  height: 70px;
+  width: 85px;
+  height: 85px;
   border-radius: 50%;
+  border: lightblue;
   background-color: #0F0;
   color: #060;
+}
+
+/*random button*/
+#randomInput{
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  border: lightblue;
+  background-color: #F0F;
+  color: #606;
 }
 
 .articles{
@@ -55,7 +67,8 @@ p{
   background-color: #EEE;
   width: 90%;
   margin: 0 auto;
-
+  border: 1px blue solid;
+  border-radius: -25%;
 }
 a{
   /*margin-bottom: 40px;*/
