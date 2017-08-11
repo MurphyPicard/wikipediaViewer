@@ -15,7 +15,7 @@ h1{
 }
 
 #wikiPic{
-  width: 60%;
+  width: 10%;
 }
 
 #searchInput{
@@ -29,4 +29,34 @@ h1{
   border-radius: 50%;
   background-color: #0F0;
   color: #060;
+}
+
+.articles{
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 25%;
+  background-color: #FFF;
+  width: 75%;
+  padding-bottom: 40px;
+}
+
+p{
+  margin: -3px;
+  padding: -3px;
+}
+
+#titles{
+  font-size: 2em;
+  font: Arial;
+}
+#descriptions{
+  font-size: 1.2em;
+  font-style: italic;
+  background-color: #EEE;
+  width: 90%;
+  margin: 0 auto;
+
+}
+a{
+  /*margin-bottom: 40px;*/
 }
